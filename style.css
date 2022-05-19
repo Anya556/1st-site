@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;  
+  font-family: Arial, sans-serif;
+  color:#383838;
+}
+
+header{
+  padding: 13.5px 0;
+  background-color: #BEB7D8;
+}
+
+.container{
+  padding: 0 15px;
+  max-width: 1146px;
+  margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+ .logo{
+  width: 150px;
+  height: 34px;
+}
+
+.contacts a{
+  color:#383838;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 25px;
+  display: inline-flex;
+  align-items: center;
+  
+
+}
+.contacts .img {
+  width: 16px;
+  height: 16px;
+  margin-right:5px;
+}
+
+.btn {
+  color:white;
+  background: #006BA7;
+  font-size: 12px;
+  padding: 13.2px 0;
+  width: 160px;
+  border-radius: 20px;
+  border: none;
+}
+.btn-header {
+  width: 180px;
+}
+
+.courses-info {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(image/laptop\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  
+}
+.courses-info h1 {
+  font-size: 36px;
+  color: #006BA7;
+  margin: 0;
+}
+.courser-info p {
+  font-size: 18px;
+  margin-top: 15px;   
+}
+
+.buttons {
+  width: 350px;
+  display: flex; 
+  justify-content: space-between;
+}
+.course-about{
+  background-color: #BEB7D8;
+}
+.education-info{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 70px 0 60px;
+  
+}
+.education-info .card {
+  width: 335px;
+}
+
+footer {
+  background: #383838;
+  color: #fff;
+  text-align: center;
+  padding: 11px;
+  font-size: 12px;
+}
+
+footer p {
+  margin: 0;
+}
+@media (max-width: 992px) {
+  header {
+    height: 150px;
+    padding: 28px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+  .page-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  header{
+    height: 210px;
+    padding: 20px;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts a{
+    margin-bottom: 5px;
+  }
+  .btn-header{
+    margin-top: 12px;
+  }
+  .courser-info {
+    height: 350px;
+}
+.courser-info h1 {
+    font-size: 25px;
+    text-align: center;  
+}
+
+.buttons {
+    width: auto;
+    flex-direction: column;
+}
+.buttons button {
+    margin-bottom: 12px;
+}
+.education-info {
+    padding: 20px 0;
+
+}
+}
+
